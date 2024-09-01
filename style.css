@@ -26,6 +26,7 @@ footer{
     margin-top: 3vmin;
     text-align: center;
     width: 100vw;
+    font-size: large;
 }
 h1{
     text-align: center;
@@ -39,6 +40,7 @@ li{
     float: left;
     overflow: auto;
     padding: 1vmin;
+    font-size: large;
     
 }
 nav input{
@@ -59,8 +61,8 @@ nav input{
 }
 @media only screen and (min-width: 20px){
     img{
-        height: 19vh;
-        width: 19vw;
+        height: 15vh;
+        width: 20vw;
     }
 
     
