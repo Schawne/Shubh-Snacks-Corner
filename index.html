@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubh Snacks Corner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="order.html" target="_blank">Place an Order</a></li>
+            <li><a href="faq.html" target="_blank">FAQs</a></li>
+            <li><input class="Search" type="text" placeholder="Search"></li>
+        </ul>
+    </nav>
+    <h1> Welcome to the official site of Shubh Snacks Corner</h1>
+    <h4>SNACKS</h4>
+    <div class="snacks">
+        <div class="eat snackrow">
+            <img class="snacksimg" src="images/cb.jpg" alt="Chole Bhature">
+            <img class="snacksimg" src="images/pze.jpg" alt="Pyaaz Kachori">
+            <img class="snacksimg" src="images/khasta-kachori-1.jpg" alt="Khasta Kachori">
+        </div>
+        <div class="eat snackrow">
+            <img class="snacksimg" src="images/samosa.jpg" alt="Samosa">
+            <img class="snacksimg" src="images/cholechwl.jpg" alt="Chole Chawal">
+            <img class="snacksimg" src="images/rajmachwl.jpg" alt="Rajma Chawal">
+        </div>
+    </div>
+    <h4>SWEETS</h4>
+    <div class="sweets">
+        <div class="eat sweetsrow">
+            <img class="sweetsimg" src="images/gj.jpg" alt="Gulab Jamun">
+            <img class="sweetsimg" src="images/jalebi.jpg" alt="Jalebi">
+            <img class="sweetsimg" src="images/imrti.jpg" alt="Imarti">
+        </div>
+        <div class="eat sweetsrow">
+            <img class="sweetsimg" src="images/rasgulla.jpg" alt="Rasgulla">
+            <img class="sweetsimg" src="images/mcl.jpg" alt="Moti Chhur Laddu">
+            <img class="sweetsimg" src="images/gkh.jpg" alt="Gajar Halwa">
+        </div>
+    </div>
+    </div>
+    <h4>DRINKS</h4>
+    <div class=" eat drinks">
+        <img class="drinksimg" src="images/lassi.jpg" alt="Lassi">
+        <img class="drinksimg" src="images/chaas.jpg" alt="Chaas">
+        <img class="drinksimg" src="images/shikanji.jpg" alt="Shikanji">
+    </div>
+    <footer>
+        Made by Shawaiz Aftab<br>
+        All Copyrights Reserved
+    </footer>
+    <script>
+        function getRandomColor() {
+            let val1 = Math.ceil(0 + Math.random() * 255);
+            let val2 = Math.ceil(0 + Math.random() * 255);
+            let val3 = Math.ceil(0 + Math.random() * 255);
+            return `rgb(${val1}, ${val2}, ${val3})`
+        }
+        setInterval(() => {
+            document.querySelector("h1").style.background = getRandomColor();
+        }, 1000);
+        document.querySelector("img").addEventListener("click", () => {
+            alert("Ready to Order? Head over to the Order section to begin!");
+        })
+    </script>
+
+
+
+</body>
+
+</html>
