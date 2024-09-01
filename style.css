@@ -57,7 +57,7 @@ nav input{
     margin: 0;
     padding: 0;
 }
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 120px) {
     img{
         height: 18vh;
         width: 18vw;
