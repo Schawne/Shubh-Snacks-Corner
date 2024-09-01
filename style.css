@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto:ital,wght@1,100&display=swap');
+nav{
+    background-color: chartreuse;
+    /* border: 3px solid white;
+    border-radius: 5px; */
+    /* margin-bottom: 6px; */
+    height: 13vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: auto; */
+    /* position: sticky;
+    top: 0; */
+}
+body{
+    background-color: rgb(252, 238, 218);
+}
+footer{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    padding: 3vmin;
+    margin-top: 3vmin;
+    text-align: center;
+    width: 100vw;
+}
+h1{
+    text-align: center;
+    margin: 5vmin;
+}
+h4{
+    /* text-align: justify; */
+    font-size: 1.8rem;
+}
+li{
+    float: left;
+    overflow: auto;
+    padding: 1vmin;
+    
+}
+nav input{
+    border-radius: 2px;
+    border: 2px solid black;
+    /* padding: 4px 20px; */
+    width: 12vw;
+    
+
+}
+/* .Search{
+    float: right;
+    
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 20vw;
+    height: 20vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    cursor: pointer;
+}
+img:hover{
+    transform: scaleY(1.5);
+    transition: 1s ease;
+}
+.drinksimg{
+    width: 25vw;
+    height: 25vh;
+    padding: 3vw;
+    cursor: pointer;
+}
+.drinks{
+    background-color: aquamarine;
+    margin: 2vmin;
+    padding: 2vw;
+    width: 100vw;
+}
+.snacks{
+   background-color: rgb(255, 29, 29);
+   margin: 2vmin;
+   padding: 2vw;
+   width: 100vw;
+   
+}
+.sweets{
+   background-color: rgb(240, 100, 240);
+   margin: 2vmin;
+   padding: 2vw;
+   width: 100vw;
+   
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    color:coral;
+}
+input:hover{
+    border-color: red;
+
+}
