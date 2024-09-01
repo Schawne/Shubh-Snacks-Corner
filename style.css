@@ -57,10 +57,10 @@ nav input{
     margin: 0;
     padding: 0;
 }
-@media only screen and (min-width: 120px) {
+@media only screen and (min-width: 20px){
     img{
-        height: 18vh;
-        width: 18vw;
+        height: 19vh;
+        width: 19vw;
     }
 
     
