@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto:ital,wght@1,100&display=swap');
+nav{
+    background-color: red;
+    /* border: 3px solid white;
+    border-radius: 5px; */
+    /* margin-bottom: 6px; */
+    height: 13vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: auto; */
+    /* position: sticky;
+    top: 0; */
+}
+body{
+    background-color:blanchedalmond;
+}
+footer{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+    padding: 3vmin;
+    margin-top: 3vmin;
+    text-align: center;
+    width: 100vw;
+}
+h1{
+    text-align: center;
+    margin: 5vmin;
+}
+h4{
+    /* text-align: justify; */
+    font-size: 1.8rem;
+}
+li{
+    float: left;
+    overflow: auto;
+    padding: 1vmin;
+    
+}
+nav input{
+    border-radius: 2px;
+    border: 2px solid black;
+    /* padding: 4px 20px; */
+    width: 12vw;
+    
+
+}
+/* .Search{
+    float: right;
+    
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (min-width: 400px) {
+    img{
+        height: 15vh;
+        width: 28vw;
+    }
+
+    
+}
+@media only screen and (min-width: 720px){
+    img{
+        height: 27vh;
+        width: 27vw;
+    }
+}
+img{
+    /* width: 22vw;
+    height: 20vh; */
+    padding-left: 2vw;
+    padding-right: 2vw;
+    cursor: pointer;
+}
+img:hover{
+    transform: scaleY(1.5);
+    transition: 1s ease;
+}
+.drinksimg{
+    width: 25vw;
+    height: 25vh;
+    padding: 3vw;
+    cursor: pointer;
+}
+.drinks{
+    margin: 2vmin;
+    padding: 2vw;
+    width: 100vw;
+    border: 3px solid yellow;
+}
+.snacks{
+   margin: 2vmin;
+   padding: 2vw;
+   width: 100vw;
+   border: 3px solid yellow;
+   
+}
+.sweets{
+   margin: 2vmin;
+   padding: 2vw;
+   width: 100vw;
+   border: 3px solid yellow;
+   
+}
+a:hover{
+    color: pink;
+}
+a:visited{
+    color: yellow;
+}
+input:hover{
+    border-color: pink;
+
+}
